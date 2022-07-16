@@ -1,0 +1,57 @@
+.calculator {
+    padding: 10px;
+ 
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+     width: 80%;
+    height: 65%;
+}
+#btn {
+   
+    background-image: url("cross.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    width: 60px;
+    height: 70%;
+    cursor: pointer; 
+    outline: none;
+    
+}
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: grey;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    cursor: pointer;   
+    height: 70%;
+    outline: none;
+}
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.header_containeer{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vw;
+      width: 100vw;
+      cursor: pointer;
+      background-color: rgb(239, 239, 176);
+  }
+
+  
